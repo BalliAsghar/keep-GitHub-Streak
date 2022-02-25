@@ -1,1 +1,1 @@
-This is a commit message for a change I just made.
+set the expected return value from a function to an intint
