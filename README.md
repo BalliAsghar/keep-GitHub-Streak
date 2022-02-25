@@ -1,1 +1,1 @@
-Date: Mon, 22 Dec 2010 18:10:51 +0100
+Add coverage for list comprehension to lib/coverage/html/list

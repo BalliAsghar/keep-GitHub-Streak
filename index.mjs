@@ -1,13 +1,13 @@
-const schedule = require("node-schedule");
-const fs = require("fs/promises");
-const { Configuration, OpenAIApi } = require("openai");
-const execa = require("execa");
+import { execa } from "execa";
+import { scheduleJob, RecurrenceRule } from "node-schedule";
+import { Configuration, OpenAIApi } from "openai";
+import fs from "fs/promises";
 
 // schedule a job to run every 5 sconds
-const rule = new schedule.RecurrenceRule();
+const rule = new RecurrenceRule();
 rule.second = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
 
-const job = schedule.scheduleJob(rule, async () => {
+const job = scheduleJob(rule, async () => {
   try {
     // read key from ./key.txt
     const key =
