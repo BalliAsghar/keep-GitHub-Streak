@@ -1,1 +1,1 @@
-Some quick thoughts on optimizing Python code.
+I just committed a message to the repo.
