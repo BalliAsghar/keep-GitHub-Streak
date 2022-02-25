@@ -1,1 +1,1 @@
-This is my first commit message.
+Non-trivial logfile related bug fixed.This
