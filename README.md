@@ -1,1 +1,1 @@
-This is my first commit message.
+"I just pushed a commit to the repo!"
