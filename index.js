@@ -3,9 +3,9 @@ const fs = require("fs/promises");
 const { Configuration, OpenAIApi } = require("openai");
 const { exec } = require("child_process");
 
-// schedule a job to run every 3 hours
+// schedule a job to run every 5 sconds
 const rule = new schedule.RecurrenceRule();
-rule.hour = [0, 3, 6, 9, 12, 15, 18, 21];
+rule.second = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
 
 const job = schedule.scheduleJob(rule, async () => {
   try {
