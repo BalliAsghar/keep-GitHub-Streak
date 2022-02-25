@@ -1,7 +1,7 @@
 const schedule = require("node-schedule");
 const fs = require("fs/promises");
 const { Configuration, OpenAIApi } = require("openai");
-const { exec } = require("child_process");
+const { execa } = require("execa");
 
 // schedule a job to run every 5 sconds
 const rule = new schedule.RecurrenceRule();
@@ -32,10 +32,9 @@ const job = schedule.scheduleJob(rule, async () => {
     // write the message to readme.md
     await fs.writeFile("./README.md", message);
 
-    // commit the message
-    await exec(
-      `echo "${message}" | git commit -a -m "${message}" && git push https://${token}@github.com/BalliAsghar/showoffgitgraph.git`
-    );
+    // add remote origin to git git@github.com:BalliAsghar/git.git
+    const a = await execa("git", ["branch", "-a"]);
+    console.log(a.stdout);
 
     console.log(`Successfully wrote commit message: ${message}`);
   } catch (error) {
