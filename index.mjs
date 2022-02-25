@@ -3,9 +3,9 @@ import { scheduleJob, RecurrenceRule } from "node-schedule";
 import { Configuration, OpenAIApi } from "openai";
 import fs from "fs/promises";
 
-// schedule a job to run every 5 sconds
+// schedule a job to run every 2 and a half hours
 const rule = new RecurrenceRule();
-rule.second = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
+rule.hour = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22];
 
 scheduleJob(rule, async () => {
   try {
