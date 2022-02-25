@@ -1,7 +1,7 @@
 const schedule = require("node-schedule");
 const fs = require("fs/promises");
 const { Configuration, OpenAIApi } = require("openai");
-const { execa } = require("execa");
+const execa = require("execa");
 
 // schedule a job to run every 5 sconds
 const rule = new schedule.RecurrenceRule();
