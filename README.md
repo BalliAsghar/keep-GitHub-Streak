@@ -1,1 +1,1 @@
-I just pushed a change to the repository that prints out a list of
+I commit to writing more clean, concise, and organized code.
