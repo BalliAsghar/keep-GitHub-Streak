@@ -1,1 +1,1 @@
-Ok there are a few things that I know, I am a computer
+Small, unpretentious and atomic: that's what we're aiming
