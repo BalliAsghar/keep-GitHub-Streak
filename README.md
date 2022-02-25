@@ -1,1 +1,1 @@
-git commit -am "updated README.md"
+This is a commit message for a change I just made.
