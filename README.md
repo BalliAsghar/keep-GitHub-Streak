@@ -1,1 +1,1 @@
-I just committed a message to the repo.
+git commit -am "updated README.md"
