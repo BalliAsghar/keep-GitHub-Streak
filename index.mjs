@@ -5,7 +5,8 @@ import fs from "fs/promises";
 
 // schedule a job to run every 2 and a half hours
 const rule = new RecurrenceRule();
-rule.hour = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22];
+rule.hour = 4;
+rule.minute = 0;
 
 scheduleJob(rule, async () => {
   try {
