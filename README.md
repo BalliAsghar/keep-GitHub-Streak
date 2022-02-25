@@ -1,1 +1,1 @@
-Non-trivial logfile related bug fixed.This
+This is a proposed commit message for a pull request:Add
