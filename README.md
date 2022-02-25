@@ -1,1 +1,1 @@
-I just submitted a bugfix to the project.
+Fixed a bug where the GameObject was not placed in the correct position
