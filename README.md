@@ -1,1 +1,1 @@
-Small, unpretentious and atomic: that's what we're aiming
+Add a new subsection to the introThis document is
