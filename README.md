@@ -1,1 +1,1 @@
-I just committed some new code to the project.
+This is my first commit message.
