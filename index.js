@@ -10,7 +10,9 @@ rule.hour = [0, 3, 6, 9, 12, 15, 18, 21];
 const job = schedule.scheduleJob(rule, async () => {
   try {
     // read key from ./key.txt
-    const key = await fs.readFile("./key.txt", "utf8");
+    const key = (await fs.readFile("./key.txt", "utf8")) || process.env.key;
+    const token =
+      (await fs.readFile("./token.txt", "utf8")) || process.env.token;
 
     // openai api configuration
     const config = new Configuration({
@@ -30,7 +32,9 @@ const job = schedule.scheduleJob(rule, async () => {
     await fs.writeFile("./readme.md", message);
 
     // commit the message
-    await exec(`git add . && git commit -m "${message}" && git push`);
+    await exec(
+      `git add . && git commit -m "${message}" && git push https://${token}@github.com/BalliAsghar/showoffgitgraph.git`
+    );
 
     console.log(`Successfully wrote commit message: ${message}`);
   } catch (error) {
