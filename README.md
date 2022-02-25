@@ -1,1 +1,1 @@
-Add a new subsection to the introThis document is
+This is a new feature, so we don't have a commit message
