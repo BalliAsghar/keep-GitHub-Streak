@@ -1,1 +1,1 @@
-Fixed a bug where the GameObject was not placed in the correct position
+Date: Mon, 22 Dec 2010 18:10:51 +0100
