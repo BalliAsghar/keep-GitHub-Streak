@@ -1,1 +1,1 @@
-I commit to writing more clean, concise, and organized code.
+Breaking changes in this release: * Removed `filter_none` from
