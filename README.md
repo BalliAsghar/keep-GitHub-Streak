@@ -1,1 +1,1 @@
-Make a first commit and add the following message:Initial
+pick_prime(n) returns the n^2 prime that divides
