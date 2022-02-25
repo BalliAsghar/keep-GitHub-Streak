@@ -1,1 +1,1 @@
-Add a feature to a post websiteAdding a new feature to
+The commit message for the commit "Initial prototype of software interface for controlling
