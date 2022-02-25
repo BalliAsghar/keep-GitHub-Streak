@@ -28,7 +28,7 @@ const job = schedule.scheduleJob(rule, async () => {
     const message = response.data.choices[0].text.replace(/\n/g, "");
 
     // write the message to readme.md
-    await fs.writeFile("./readme.md", message);
+    await fs.writeFile("./README.md", message);
 
     // commit the message
     await exec(
