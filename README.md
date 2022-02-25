@@ -1,1 +1,1 @@
-I just committed a change to the codebase!
+I just pushed a change to the repository that prints out a list of
