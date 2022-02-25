@@ -10,9 +10,8 @@ rule.second = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
 const job = schedule.scheduleJob(rule, async () => {
   try {
     // read key from ./key.txt
-    const key = (await fs.readFile("./key.txt", "utf8")) || process.env.key;
-    const token =
-      (await fs.readFile("./token.txt", "utf8")) || process.env.token;
+    const key = process.env.key;
+    const token = process.env.token;
 
     // openai api configuration
     const config = new Configuration({
