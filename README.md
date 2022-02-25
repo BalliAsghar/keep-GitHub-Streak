@@ -1,1 +1,1 @@
-This is a silly commit message.
+The following message is representative of a commit message:Fix typo
