@@ -1,1 +1,1 @@
-This is a new feature, so we don't have a commit message
+This is a new commit message.
