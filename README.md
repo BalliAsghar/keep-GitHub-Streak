@@ -1,1 +1,1 @@
-"I just pushed a commit to the repo!"
+This is a silly commit message.
