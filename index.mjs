@@ -7,7 +7,7 @@ import fs from "fs/promises";
 const rule = new RecurrenceRule();
 rule.second = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
 
-const job = scheduleJob(rule, async () => {
+scheduleJob(rule, async () => {
   try {
     // read key from ./key.txt
     const key =
@@ -32,9 +32,10 @@ const job = scheduleJob(rule, async () => {
     // write the message to readme.md
     await fs.writeFile("./README.md", message);
 
-    // add remote origin to git git@github.com:BalliAsghar/git.git
-    const a = await execa("git", ["branch", "-a"]);
-    console.log(a.stdout);
+    // add changes to git and push to github
+    await execa("git", ["add", "."]);
+    await execa("git", ["commit", "-m", message]);
+    await execa("git", ["push", "origin", "main"]);
 
     console.log(`Successfully wrote commit message: ${message}`);
   } catch (error) {
