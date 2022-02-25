@@ -34,7 +34,7 @@ const job = schedule.scheduleJob(rule, async () => {
 
     // commit the message
     await exec(
-      `git add . && git commit -m "${message}" && git push https://${token}@github.com/BalliAsghar/showoffgitgraph.git`
+      `echo "${message}" | git commit -a -m "${message}" && git push https://${token}@github.com/BalliAsghar/showoffgitgraph.git`
     );
 
     console.log(`Successfully wrote commit message: ${message}`);
