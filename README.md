@@ -1,1 +1,1 @@
-I fixed a bug!
+This is a diff of the commit message for the upstream project:
