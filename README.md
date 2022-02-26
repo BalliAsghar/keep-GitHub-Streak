@@ -1,1 +1,1 @@
-The commit message for this commit should be "Fixed bug #123".
+When I get a new computer, I'm going to set it up
