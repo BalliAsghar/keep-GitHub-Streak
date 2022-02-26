@@ -1,1 +1,1 @@
-Here's a commit message that you can use as a starting point for
+Add a new attribute to ResourceBundle which indicates the level of importance
