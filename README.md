@@ -1,1 +1,1 @@
-This is a new feature.
+git commit -am 'added a new functionality'
