@@ -1,1 +1,1 @@
-fix - no check to see if input is a timestampp
+Add logging functionality to the codebase.
