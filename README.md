@@ -1,1 +1,1 @@
-Initial commit of etnaviv Core v0.33
+This is a complete rewrite of the database layer. All database layer code
