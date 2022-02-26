@@ -1,1 +1,1 @@
-This commit updates the Nginx web server to version 1.10.
+Add an "optional()" function to the std::vector library
