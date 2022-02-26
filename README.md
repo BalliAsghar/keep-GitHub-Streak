@@ -1,1 +1,1 @@
-807e209:Removed redundant strcmp in function echo_
+The solution to the problem is simpleThis is a simple solution
