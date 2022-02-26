@@ -1,1 +1,1 @@
-It's really tough choosing just one commit message to encapsulate my work
+This is the commit message for the skeleton project:This is
