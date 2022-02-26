@@ -1,1 +1,1 @@
-This is a commit message for my new project:Add some
+This is a temporary solution to track which commits are pushed to the remote
