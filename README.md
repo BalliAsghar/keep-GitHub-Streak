@@ -1,1 +1,1 @@
-"I'm releasing my new front-end!"
+Add a new method to the EmployeeController to batch remove employees from the
