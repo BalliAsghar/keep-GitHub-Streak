@@ -1,1 +1,1 @@
-"I committed a change to this repository."
+Add raw keyboard events to the log to better debug why they are
