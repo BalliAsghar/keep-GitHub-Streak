@@ -1,1 +1,1 @@
-I just pushed a commit to the master branch of my project.
+I fixed a bug.
