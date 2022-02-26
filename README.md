@@ -1,1 +1,1 @@
-My latest commit message is: "added icicle to the tree"
+Simplify the user interface and make it more consistent.
