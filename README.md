@@ -1,1 +1,1 @@
-This is my first github commit message.
+"Fixed some encoding issues in the next release."
