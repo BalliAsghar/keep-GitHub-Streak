@@ -1,1 +1,1 @@
-This is a good commit message:Adding feature X
+gam3 committed a ++ to gam3/src/nbody
