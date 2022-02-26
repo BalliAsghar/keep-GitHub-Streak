@@ -1,1 +1,1 @@
-This is a dummy commit message.
+I just added a new feature to my project!
