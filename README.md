@@ -1,1 +1,1 @@
-FWIW, here is a commit message for my last commit on
+Fix the bug that prevented some users from starting the game.
