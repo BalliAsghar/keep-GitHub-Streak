@@ -1,1 +1,1 @@
-I added a new column to the database.
+It's really tough choosing just one commit message to encapsulate my work
