@@ -1,1 +1,1 @@
-Add a new attribute to ResourceBundle which indicates the level of importance
+> Add some logging to mongooseAdding logging to
