@@ -1,1 +1,1 @@
-Simplify the user interface and make it more consistent.
+Adding a commit message to your commit is a great way to give your
