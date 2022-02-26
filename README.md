@@ -1,1 +1,1 @@
-Add `time` column to blog post events tableAdds a
+"Merged pull request #1 from Simon Wills/Threadsafe
