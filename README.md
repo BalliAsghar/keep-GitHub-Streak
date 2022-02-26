@@ -1,1 +1,1 @@
-This is a Test commit message.
+My latest commit message is: "added icicle to the tree"
