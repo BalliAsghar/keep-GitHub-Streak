@@ -1,1 +1,1 @@
-This is a test commit message.
+"I committed a change to this repository."
