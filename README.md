@@ -1,1 +1,1 @@
-This is my first commit message.
+Add a commit message to this commit:Add a CONTRIB
