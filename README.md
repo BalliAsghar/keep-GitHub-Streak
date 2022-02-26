@@ -1,1 +1,1 @@
-super cool commit messageA quick and easy way to make
+The commit message for this commit should be "Fixed bug #123".
