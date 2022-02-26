@@ -1,1 +1,1 @@
-This is a commit message for the myproject repository on GitHub.
+initial commit message:added printProgress to ProgressBar
