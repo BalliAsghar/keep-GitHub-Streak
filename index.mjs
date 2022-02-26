@@ -3,6 +3,8 @@ import { scheduleJob, RecurrenceRule } from "node-schedule";
 import { Configuration, OpenAIApi } from "openai";
 import fs from "fs/promises";
 
+console.log("Starting...");
+
 // schedule a job to run every 2 hours
 const rule = new RecurrenceRule();
 rule.hour = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22];
