@@ -1,1 +1,1 @@
-I just pushed my first commit to the project! Great job!
+This is my first github commit message.
