@@ -1,1 +1,1 @@
-This is a staging environment for our new product.
+I just committed a change to the code base that makes the site faster
