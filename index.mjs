@@ -3,10 +3,9 @@ import { scheduleJob, RecurrenceRule } from "node-schedule";
 import { Configuration, OpenAIApi } from "openai";
 import fs from "fs/promises";
 
-// schedule a job to run every 2 and a half hours
+// schedule a job to run every 2 hours
 const rule = new RecurrenceRule();
-rule.hour = 4;
-rule.minute = 0;
+rule.hour = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22];
 
 scheduleJob(rule, async () => {
   try {
@@ -38,7 +37,7 @@ scheduleJob(rule, async () => {
     await execa("git", ["commit", "-m", message]);
     await execa("git", ["push", "origin", "main"]);
 
-    console.log(`Successfully wrote commit message: ${message}`);
+    console.log(`${message} - ${new Date().toLocaleString()}`);
   } catch (error) {
     console.error(error);
   }
