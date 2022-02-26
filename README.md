@@ -1,1 +1,1 @@
-This is a great commit message:This changes how foo behaves
+I just committed some code to the repository.
