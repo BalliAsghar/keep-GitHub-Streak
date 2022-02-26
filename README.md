@@ -1,1 +1,1 @@
-"Fixed a bug in issue #6."
+This is a commit message for the myproject repository on GitHub.
