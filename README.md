@@ -1,1 +1,1 @@
-I've just uploaded my first commit to the project! Thanks to everyone
+"Initial commit of my project"
