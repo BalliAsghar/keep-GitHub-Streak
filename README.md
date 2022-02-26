@@ -1,1 +1,1 @@
-This is my first commit on this repository.
+"I just pushed my first commit to project X"
