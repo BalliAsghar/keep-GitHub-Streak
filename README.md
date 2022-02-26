@@ -1,1 +1,1 @@
-"Fixed some encoding issues in the next release."
+Add a new option for JDBC data sources to support parameterized
