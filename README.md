@@ -1,1 +1,1 @@
-This is a complete git repository with all branches and tagscommit
+I added a new column to the database.
