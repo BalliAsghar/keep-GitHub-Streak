@@ -1,1 +1,1 @@
-I just pushed a commit addressing some issues people have been reporting.
+I fixed a bug!
