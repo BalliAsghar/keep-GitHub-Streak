@@ -1,1 +1,1 @@
-This is my first commit message on my project.
+fix - no check to see if input is a timestampp
