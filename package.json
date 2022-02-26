@@ -2,10 +2,10 @@
   "name": "gitshowoff-node",
   "version": "1.0.0",
   "description": "increase your github contributions graph",
-  "main": "index.js",
+  "main": "app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.mjs"
+    "start": "node app.mjs"
   },
   "author": "BalliAsghar",
   "license": "MIT",
