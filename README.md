@@ -1,1 +1,1 @@
-One possible commit message for this PR might be: "Update CSS styles
+I've just uploaded my first commit to the project! Thanks to everyone
