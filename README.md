@@ -1,1 +1,1 @@
-gam3 committed a ++ to gam3/src/nbody
+This is a dummy input.
