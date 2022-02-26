@@ -1,1 +1,1 @@
-Add a new task in the database to store passwords in a secure format
+This commit updates the Nginx web server to version 1.10.
