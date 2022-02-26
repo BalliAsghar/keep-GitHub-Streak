@@ -1,1 +1,1 @@
-This is a temporary solution to track which commits are pushed to the remote
+I just pushed my first commit to the project! Great job!
