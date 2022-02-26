@@ -1,1 +1,1 @@
-Fixed a bug in the commit message parser. Prevents commit messages
+This signals to other developers that the change was made with their interests in
