@@ -1,1 +1,1 @@
-This should be the initial commit message for the project:Project
+"My patch looks good, but I noticed a bug."
