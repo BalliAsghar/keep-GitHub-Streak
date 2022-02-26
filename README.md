@@ -1,1 +1,1 @@
-Add a new repository for omisegoThis repository should contain
+Please enter a commit message.
