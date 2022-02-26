@@ -1,1 +1,1 @@
-I fixed a bug.
+I updated udev to introduce a new mode for hotplugging
