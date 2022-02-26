@@ -1,1 +1,1 @@
-"My patch looks good, but I noticed a bug."
+Format is: <bitset> commit <changeset>
