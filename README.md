@@ -1,1 +1,1 @@
-"Merged pull request #1 from Simon Wills/Threadsafe
+This is my first commit message on my project.
