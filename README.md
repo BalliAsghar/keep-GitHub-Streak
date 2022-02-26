@@ -1,1 +1,1 @@
-Please enter a commit message.
+This should be the initial commit message for the project:Project
