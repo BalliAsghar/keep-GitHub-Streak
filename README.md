@@ -1,1 +1,1 @@
-The new commit message should be:Fix regression that caused PHP
+git commit -am "add feature"This adds a new
