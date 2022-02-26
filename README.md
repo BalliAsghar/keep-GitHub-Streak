@@ -1,1 +1,1 @@
-I committed a change to the project that improves its stability.
+Add `time` column to blog post events tableAdds a
