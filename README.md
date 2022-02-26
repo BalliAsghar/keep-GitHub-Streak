@@ -1,1 +1,1 @@
-Somebody who is a wizard!
+"Adding compatibility layer for Heka with Continuum"
