@@ -1,1 +1,1 @@
-This is a commit message for a new feature or bugfix:
+This is a complete git repository with all branches and tagscommit
