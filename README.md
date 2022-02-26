@@ -1,1 +1,1 @@
-PostgreSQL commits should be relatively short and explanatory. Use one or two
+This is a commit message for a change to the codebase:
