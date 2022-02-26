@@ -1,1 +1,1 @@
-initial commit message:added printProgress to ProgressBar
+Fixed bug in descriptor parsing
