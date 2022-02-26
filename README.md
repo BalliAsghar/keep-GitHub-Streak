@@ -1,1 +1,1 @@
-This is my first commit message.
+Here's a commit message that you can use as a starting point for
