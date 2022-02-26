@@ -1,1 +1,1 @@
-update config.py so that it usesdjango-session instead of
+I just pushed a commit to the project I'm working on. Here
