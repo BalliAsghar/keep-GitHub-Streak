@@ -1,1 +1,1 @@
-I added a new feature to the application!
+Add a new method to the Java Persistence API to support bulk loading
