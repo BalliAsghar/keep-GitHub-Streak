@@ -1,1 +1,1 @@
-Adding a new line to the StatisticsController class.public void
+Added an entity to the world map.Added a new item
