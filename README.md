@@ -1,1 +1,1 @@
-This is a commit message for a change to the codebase:
+This is a great commit message:This changes how foo behaves
