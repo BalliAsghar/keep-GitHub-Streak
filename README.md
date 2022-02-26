@@ -1,1 +1,1 @@
-This commit message is for a pull request.This is a
+This is a dummy message.
