@@ -1,1 +1,1 @@
-Fixed bug in descriptor parsing
+This is a Test commit message.
