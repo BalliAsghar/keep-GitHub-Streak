@@ -1,1 +1,1 @@
-This is a dummy message.
+This is a dummy commit message.
