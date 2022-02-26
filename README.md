@@ -1,1 +1,1 @@
-This commit initializes a new repository.
+This is a new commit message.
