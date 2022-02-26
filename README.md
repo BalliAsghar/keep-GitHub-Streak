@@ -1,1 +1,1 @@
-"Adding compatibility layer for Heka with Continuum"
+This is a commit message for my new project:Add some
