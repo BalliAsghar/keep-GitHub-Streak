@@ -1,1 +1,1 @@
-This is a complete rewrite of the database layer. All database layer code
+update config.py so that it usesdjango-session instead of
