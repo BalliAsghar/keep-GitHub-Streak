@@ -1,1 +1,1 @@
-Added a new property to the Model class.This commit
+I just pushed a commit to the master branch of my project.
