@@ -1,1 +1,1 @@
-git commit -am 'added a new functionality'
+This is the [COMMIT MESSAGE].
