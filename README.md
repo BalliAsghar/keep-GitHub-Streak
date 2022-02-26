@@ -1,1 +1,1 @@
-This is my first commit message.
+Added a new property to the Model class.This commit
