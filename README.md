@@ -1,1 +1,1 @@
-I just committed a change to the code base that makes the site faster
+I just committed a change to the code that improves performance by 10%.
