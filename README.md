@@ -1,1 +1,1 @@
-The commit message should explain the changes that were made.
+This is a new feature.
