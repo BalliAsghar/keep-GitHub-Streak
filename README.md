@@ -1,1 +1,1 @@
-This is a temporary commit for a PR for a new feature.
+Fixed a bug in the commit message parser. Prevents commit messages
