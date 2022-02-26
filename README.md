@@ -1,1 +1,1 @@
-"Initial commit of my project"
+I just pushed a commit addressing some issues people have been reporting.
