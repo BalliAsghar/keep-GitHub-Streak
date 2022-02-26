@@ -1,1 +1,1 @@
-Add logging functionality to the codebase.
+"Fixed a bug in issue #6."
