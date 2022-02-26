@@ -1,1 +1,1 @@
-This commit messages should explain what changes are being made and why they are
+This is my first commit message.
