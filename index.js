@@ -9,7 +9,7 @@ schedule.scheduleJob("*/10 * * * *", async () => {
     // read key from ./key.txt
 
     // random text
-    const message = `${Math.random()}`;
+    const message = `${Math.random()} - ${new Date()}`;
 
     // write the message to readme.md
     await fs.writeFile("./README.md", message);
