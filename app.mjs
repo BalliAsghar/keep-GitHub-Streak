@@ -1,45 +1,28 @@
-import { execa } from "execa";
-import { scheduleJob, RecurrenceRule } from "node-schedule";
-import { Configuration, OpenAIApi } from "openai";
-import fs from "fs/promises";
+const schedule = require("node-schedule");
+const fs = require("fs/promises");
+const execa = require("execa");
 
+// schedule a job to run every 10 minutes
 console.log("Starting....");
 
-// schedule a job to run every 2 hours
-const rule = new RecurrenceRule();
-rule.hour = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22];
-
-scheduleJob(rule, async () => {
+schedule.scheduleJob("*/10 * * * *", async () => {
   try {
     // read key from ./key.txt
-    const key =
-      process.env.key || "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";
-    const token =
-      process.env.token || "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";
 
-    // openai api configuration
-    const config = new Configuration({
-      apiKey: key,
-    });
-    const api = new OpenAIApi(config);
-
-    // get random git commit message
-    const response = await api.createCompletion("text-curie-001", {
-      prompt: "random commit message?",
-    });
-
-    // get the first result
-    const message = response.data.choices[0].text.replace(/\n/g, "");
+    // random text
+    const message = `${Math.random()} - ${new Date()}`;
 
     // write the message to readme.md
     await fs.writeFile("./README.md", message);
 
-    // add changes to git and push to github
+    // commit the change
     await execa("git", ["add", "."]);
     await execa("git", ["commit", "-m", message]);
-    await execa("git", ["push", "origin", "main"]);
+    await execa("git", ["push"]);
 
-    console.log(`${message} - ${new Date().toLocaleString()}`);
+    console.log(
+      `Successfully wrote commit message: ${message} to README.md at ${new Date()}`
+    );
   } catch (error) {
     console.error(error);
   }
