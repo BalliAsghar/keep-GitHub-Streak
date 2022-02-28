@@ -19,7 +19,9 @@ schedule.scheduleJob("*/10 * * * *", async () => {
     await execa("git", ["commit", "-m", message]);
     await execa("git", ["push"]);
 
-    console.log(`Successfully wrote commit message: ${message}`);
+    console.log(
+      `Successfully wrote commit message: ${message} to README.md at ${new Date()}`
+    );
   } catch (error) {
     console.error(error);
   }
