@@ -1,28 +1,25 @@
-const schedule = require("node-schedule");
-const fs = require("fs/promises");
-const execa = require("execa");
+import { execa } from "execa";
+import { scheduleJob } from "node-schedule";
+import fs from "fs/promises";
+
+console.log("Starting...");
 
 // schedule a job to run every 10 minutes
-console.log("Starting....");
 
-schedule.scheduleJob("*/10 * * * *", async () => {
+scheduleJob("*/10 * * * *", async () => {
   try {
-    // read key from ./key.txt
-
-    // random text
-    const message = `${Math.random()} - ${new Date()}`;
+    // get the first result
+    const message = `${Math.random()} - ${new Date().toLocaleString()}`;
 
     // write the message to readme.md
     await fs.writeFile("./README.md", message);
 
-    // commit the change
+    // add changes to git and push to github
     await execa("git", ["add", "."]);
     await execa("git", ["commit", "-m", message]);
-    await execa("git", ["push"]);
+    await execa("git", ["push", "origin", "main"]);
 
-    console.log(
-      `Successfully wrote commit message: ${message} to README.md at ${new Date()}`
-    );
+    console.log(`${message} - ${new Date().toLocaleString()}`);
   } catch (error) {
     console.error(error);
   }
