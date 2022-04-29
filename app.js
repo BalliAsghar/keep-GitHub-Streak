@@ -33,8 +33,6 @@ import { execa } from "execa";
       return;
     }
 
-    console.log(events.data);
-
     const pushEvents = events.data.filter(
       (event) => event.type === "PushEvent"
     );
