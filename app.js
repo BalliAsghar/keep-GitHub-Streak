@@ -56,7 +56,7 @@ import { execa } from "execa";
     // if the difference is not more than 23 hours then do nothing
     if (diff < 1000 * 60 * 60 * 23) {
       console.log("No need to update");
-
+      console.log("Job Done...");
       return;
     }
 
