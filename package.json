@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "execa": "^6.1.0",
+    "node-schedule": "^2.1.0"
+  }
+}
